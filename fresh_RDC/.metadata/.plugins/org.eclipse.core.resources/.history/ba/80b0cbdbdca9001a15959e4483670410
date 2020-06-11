@@ -1,0 +1,27 @@
+package creative.framework.model;
+
+public class SceneItem {
+	 Type type;
+	    Value value;
+
+	    public SceneItem(Type type, Value value) {
+	        this.type = type;
+	        this.value = value;
+	    }
+
+	    public Type getType() {
+	        return type;
+	    }
+
+	    public void setType(Type type) {
+	        this.type = type;
+	    }
+
+	    public Value getValue() {
+	        return this.value;
+	    }
+
+	    public void setValue(Value value) {
+	        this.value = value;
+	    }
+}

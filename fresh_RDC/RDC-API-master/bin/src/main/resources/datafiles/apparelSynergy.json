@@ -1,0 +1,9 @@
+{
+"WHITE":["NAVY", "BLACK", "BLUE", "GRAY", "LILAC", "BROWN"], 
+"BLACK":["NAVY", "BROWN", "WHITE", "BLUE", "LILAC", "GRAY"], 
+"NAVY":["GRAY", "BLACK", "WHITE", "BLUE", "BROWN"], 
+"BLUE":["NAVY", "BLACK", "WHITE", "GRAY", "BROWN"], 
+"GRAY":["NAVY", "BLACK", "WHITE", "BLUE", "LILAC"], 
+"BROWN":["NAVY", "BLACK", "WHITE", "BLUE"], 
+"LILAC":["BLACK", "WHITE", "GRAY"]
+}

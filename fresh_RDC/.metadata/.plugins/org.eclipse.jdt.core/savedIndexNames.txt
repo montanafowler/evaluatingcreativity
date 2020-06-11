@@ -1,0 +1,27 @@
+INDEX VERSION 1.130+/Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/.metadata/.plugins/org.eclipse.jdt.core
+2132672051.index
+1271342938.index
+124275899.index
+3158197321.index
+2084021475.index
+2978170998.index
+680827947.index
+2226098710.index
+2762063732.index
+1450186437.index
+3720681883.index
+1499520195.index
+2153133134.index
+1123208067.index
+3810510305.index
+1888666045.index
+3334288320.index
+3927758025.index
+3402297393.index
+2078819474.index
+2255771374.index
+3484117950.index
+3177382718.index
+1302770079.index
+1999298954.index
+1416793072.index

@@ -1,0 +1,1199 @@
+2020-06-07 15:35:09,284 [Worker-6] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2020-06-07 15:35:30,435 [Worker-11] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2020-06-07 15:35:30,952 [Worker-11] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-compiler-plugin/3.1/maven-compiler-plugin-3.1.jar
+2020-06-07 15:35:31,020 [Worker-11] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-compiler-plugin/3.1/maven-compiler-plugin-3.1.jar
+2020-06-07 15:35:31,136 [Worker-11] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-compiler-plugin/3.1/maven-compiler-plugin-3.1.pom
+2020-06-07 15:35:31,163 [Worker-11] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-compiler-plugin/3.1/maven-compiler-plugin-3.1.pom
+2020-06-07 15:35:31,637 [Worker-11] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-api/2.2/plexus-compiler-api-2.2.pom
+2020-06-07 15:35:31,662 [Worker-11] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-api/2.2/plexus-compiler-api-2.2.pom
+2020-06-07 15:35:31,682 [Worker-11] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler/2.2/plexus-compiler-2.2.pom
+2020-06-07 15:35:31,708 [Worker-11] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler/2.2/plexus-compiler-2.2.pom
+2020-06-07 15:35:31,747 [Worker-11] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-manager/2.2/plexus-compiler-manager-2.2.pom
+2020-06-07 15:35:31,771 [Worker-11] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-manager/2.2/plexus-compiler-manager-2.2.pom
+2020-06-07 15:35:31,794 [Worker-11] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-javac/2.2/plexus-compiler-javac-2.2.pom
+2020-06-07 15:35:31,817 [Worker-11] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-javac/2.2/plexus-compiler-javac-2.2.pom
+2020-06-07 15:35:31,838 [Worker-11] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compilers/2.2/plexus-compilers-2.2.pom
+2020-06-07 15:35:31,863 [Worker-11] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compilers/2.2/plexus-compilers-2.2.pom
+2020-06-07 15:35:31,928 [Worker-11] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-api/2.2/plexus-compiler-api-2.2.jar
+2020-06-07 15:35:31,957 [Worker-11] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-api/2.2/plexus-compiler-api-2.2.jar
+2020-06-07 15:35:31,979 [Worker-11] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-manager/2.2/plexus-compiler-manager-2.2.jar
+2020-06-07 15:35:32,003 [Worker-11] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-manager/2.2/plexus-compiler-manager-2.2.jar
+2020-06-07 15:35:32,025 [Worker-11] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-javac/2.2/plexus-compiler-javac-2.2.jar
+2020-06-07 15:35:32,054 [Worker-11] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-javac/2.2/plexus-compiler-javac-2.2.jar
+2020-06-07 15:35:32,187 [Worker-11] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: creative.framework:api:1.0-SNAPSHOT @ /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/pom.xml.
+2020-06-07 15:35:32,523 [Worker-11] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /RDC-API-master/src/main/java
+2020-06-07 15:35:32,523 [Worker-11] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /RDC-API-master/src/main/resources
+2020-06-07 15:35:32,534 [Worker-11] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /RDC-API-master/src/test/java
+2020-06-07 15:35:33,259 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-07 15:35:33,266 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-06-07 15:35:33,279 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-07 15:35:33,279 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-07 15:35:34,704 [Worker-11] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 4 sec
+2020-06-07 15:35:35,090 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-07 15:35:35,094 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-06-07 15:35:35,097 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-07 15:35:35,097 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-07 15:38:32,546 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-07 15:38:32,547 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-06-07 15:38:32,548 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-07 15:38:32,548 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-08 09:44:27,096 [Worker-102] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 09:44:27,099 [Worker-102] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-06-08 09:44:27,101 [Worker-102] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 09:44:27,101 [Worker-102] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-08 09:45:23,474 [Worker-107] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 09:45:23,474 [Worker-107] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-06-08 09:45:23,476 [Worker-107] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 09:45:23,476 [Worker-107] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-08 12:15:16,759 [Worker-117] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 12:15:16,760 [Worker-117] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2020-06-08 12:15:16,764 [Worker-117] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 12:15:16,764 [Worker-117] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-08 12:16:11,139 [Worker-105] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 12:16:11,139 [Worker-105] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2020-06-08 12:16:11,140 [Worker-105] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 12:16:11,141 [Worker-105] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-08 12:17:39,421 [Worker-103] WARN  o.e.r.models.ModelRepository - Failed to download org.eclipse.recommenders:index::zip:0.0.0
+org.eclipse.aether.resolution.ArtifactResolutionException: Could not find artifact org.eclipse.recommenders:index:zip:0.0.0-SNAPSHOT in models (http://download.eclipse.org/recommenders/models/oxygen/)
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolve(DefaultArtifactResolver.java:453) ~[na:na]
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifacts(DefaultArtifactResolver.java:255) ~[na:na]
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifact(DefaultArtifactResolver.java:232) ~[na:na]
+	at org.eclipse.aether.internal.impl.DefaultRepositorySystem.resolveArtifact(DefaultRepositorySystem.java:303) ~[na:na]
+	at org.eclipse.recommenders.models.ModelRepository.resolveInternal(ModelRepository.java:193) [org.eclipse.recommenders.models_2.5.2.v20180401-1226.jar:na]
+	at org.eclipse.recommenders.models.ModelRepository.resolve(ModelRepository.java:172) [org.eclipse.recommenders.models_2.5.2.v20180401-1226.jar:na]
+	at org.eclipse.recommenders.internal.models.rcp.EclipseModelRepository.resolve(EclipseModelRepository.java:168) [org.eclipse.recommenders.models.rcp_2.5.2.v20180401-1226.jar:na]
+	at org.eclipse.recommenders.internal.models.rcp.DownloadModelArchiveJob.run(DownloadModelArchiveJob.java:76) [org.eclipse.recommenders.models.rcp_2.5.2.v20180401-1226.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56) [org.eclipse.core.jobs_3.9.3.v20180115-1757.jar:na]
+Caused by: org.eclipse.aether.transfer.ArtifactNotFoundException: Could not find artifact org.eclipse.recommenders:index:zip:0.0.0-SNAPSHOT in models (http://download.eclipse.org/recommenders/models/oxygen/)
+	at org.eclipse.aether.connector.basic.ArtifactTransportListener.transferFailed(ArtifactTransportListener.java:48) ~[org.apache.maven.resolver.connector.basic_1.0.3.v20170405-0725.jar:1.0.3]
+	at org.eclipse.aether.connector.basic.BasicRepositoryConnector$TaskRunner.run(BasicRepositoryConnector.java:364) ~[org.apache.maven.resolver.connector.basic_1.0.3.v20170405-0725.jar:1.0.3]
+	at org.eclipse.aether.util.concurrency.RunnableErrorForwarder$1.run(RunnableErrorForwarder.java:76) ~[na:na]
+	at org.eclipse.aether.connector.basic.BasicRepositoryConnector$DirectExecutor.execute(BasicRepositoryConnector.java:590) ~[org.apache.maven.resolver.connector.basic_1.0.3.v20170405-0725.jar:1.0.3]
+	at org.eclipse.aether.connector.basic.BasicRepositoryConnector.get(BasicRepositoryConnector.java:258) ~[org.apache.maven.resolver.connector.basic_1.0.3.v20170405-0725.jar:1.0.3]
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.performDownloads(DefaultArtifactResolver.java:529) ~[na:na]
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolve(DefaultArtifactResolver.java:430) ~[na:na]
+	... 8 common frames omitted
+2020-06-08 12:19:34,709 [Worker-117] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 12:19:34,710 [Worker-117] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2020-06-08 12:19:34,712 [Worker-117] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 12:19:34,712 [Worker-117] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-08 12:20:22,209 [Worker-117] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 12:20:22,210 [Worker-117] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2020-06-08 12:20:22,211 [Worker-117] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 12:20:22,211 [Worker-117] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-08 12:20:52,993 [Worker-116] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 12:20:52,994 [Worker-116] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2020-06-08 12:20:52,995 [Worker-116] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 12:20:52,995 [Worker-116] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-08 12:20:55,810 [Worker-103] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 12:20:55,812 [Worker-103] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2020-06-08 12:20:55,814 [Worker-103] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 12:20:55,814 [Worker-103] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-08 12:21:08,033 [Worker-117] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 12:21:08,034 [Worker-117] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2020-06-08 12:21:08,034 [Worker-117] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 12:21:08,035 [Worker-117] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-08 12:23:58,350 [Worker-116] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 12:23:58,351 [Worker-116] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2020-06-08 12:23:58,352 [Worker-116] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 12:23:58,352 [Worker-116] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-08 12:24:56,416 [Worker-116] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 12:24:56,417 [Worker-116] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2020-06-08 12:24:56,418 [Worker-116] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 12:24:56,418 [Worker-116] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-08 13:00:13,185 [Worker-119] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 13:00:13,186 [Worker-119] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2020-06-08 13:00:13,187 [Worker-119] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 13:00:13,187 [Worker-119] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-08 15:46:01,141 [Worker-141] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 15:46:01,144 [Worker-141] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2020-06-08 15:46:01,147 [Worker-141] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 15:46:01,147 [Worker-141] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-08 15:49:52,274 [Worker-143] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 15:49:52,274 [Worker-143] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2020-06-08 15:49:52,275 [Worker-143] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 15:49:52,275 [Worker-143] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-08 15:50:05,278 [Worker-142] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 15:50:05,279 [Worker-142] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2020-06-08 15:50:05,280 [Worker-142] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 15:50:05,280 [Worker-142] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-08 15:50:32,185 [Worker-141] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 15:50:32,186 [Worker-141] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2020-06-08 15:50:32,186 [Worker-141] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 15:50:32,186 [Worker-141] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-08 15:51:10,760 [Worker-146] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 15:51:10,760 [Worker-146] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2020-06-08 15:51:10,761 [Worker-146] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 15:51:10,762 [Worker-146] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-08 15:53:16,611 [Worker-145] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 15:53:16,612 [Worker-145] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2020-06-08 15:53:16,612 [Worker-145] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 15:53:16,612 [Worker-145] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-08 15:53:28,569 [Worker-141] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 15:53:28,570 [Worker-141] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2020-06-08 15:53:28,571 [Worker-141] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 15:53:28,571 [Worker-141] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-08 15:55:45,214 [Worker-140] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 15:55:45,215 [Worker-140] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2020-06-08 15:55:45,217 [Worker-140] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 15:55:45,217 [Worker-140] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-08 15:56:47,923 [Worker-145] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 15:56:47,923 [Worker-145] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2020-06-08 15:56:47,924 [Worker-145] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 15:56:47,924 [Worker-145] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-08 15:56:51,114 [Worker-141] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 15:56:51,114 [Worker-141] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2020-06-08 15:56:51,115 [Worker-141] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 15:56:51,115 [Worker-141] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-08 15:57:06,425 [Worker-141] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 15:57:06,426 [Worker-141] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2020-06-08 15:57:06,426 [Worker-141] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 15:57:06,426 [Worker-141] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-08 16:00:58,815 [Worker-145] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 16:00:58,816 [Worker-145] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2020-06-08 16:00:58,816 [Worker-145] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 16:00:58,816 [Worker-145] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-08 16:04:22,515 [Worker-142] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 16:04:22,515 [Worker-142] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2020-06-08 16:04:22,516 [Worker-142] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 16:04:22,517 [Worker-142] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-08 16:04:28,251 [Worker-142] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 16:04:28,252 [Worker-142] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2020-06-08 16:04:28,253 [Worker-142] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 16:04:28,253 [Worker-142] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-08 16:06:39,006 [Worker-147] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 16:06:39,006 [Worker-147] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2020-06-08 16:06:39,007 [Worker-147] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 16:06:39,007 [Worker-147] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-08 16:06:52,474 [Worker-146] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 16:06:52,474 [Worker-146] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2020-06-08 16:06:52,479 [Worker-146] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 16:06:52,479 [Worker-146] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-08 16:07:43,494 [Worker-140] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 16:07:43,494 [Worker-140] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2020-06-08 16:07:43,495 [Worker-140] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 16:07:43,495 [Worker-140] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-08 16:08:24,082 [Worker-147] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 16:08:24,082 [Worker-147] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2020-06-08 16:08:24,083 [Worker-147] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 16:08:24,083 [Worker-147] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-08 16:08:48,348 [Worker-148] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 16:08:48,350 [Worker-148] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2020-06-08 16:08:48,351 [Worker-148] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 16:08:48,351 [Worker-148] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-08 16:11:33,213 [Worker-147] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 16:11:33,213 [Worker-147] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2020-06-08 16:11:33,214 [Worker-147] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 16:11:33,214 [Worker-147] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-08 16:11:35,268 [Worker-148] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 16:11:35,268 [Worker-148] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2020-06-08 16:11:35,270 [Worker-148] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 16:11:35,270 [Worker-148] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-08 16:11:57,841 [Worker-147] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 16:11:57,841 [Worker-147] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2020-06-08 16:11:57,843 [Worker-147] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 16:11:57,843 [Worker-147] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-08 16:13:39,770 [Worker-148] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 16:13:39,771 [Worker-148] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2020-06-08 16:13:39,771 [Worker-148] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 16:13:39,772 [Worker-148] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-08 16:16:47,533 [Worker-142] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 16:16:47,534 [Worker-142] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2020-06-08 16:16:47,535 [Worker-142] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 16:16:47,535 [Worker-142] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-08 16:21:39,966 [Worker-146] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 16:21:39,967 [Worker-146] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2020-06-08 16:21:39,968 [Worker-146] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 16:21:39,968 [Worker-146] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-08 16:25:48,071 [Worker-146] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 16:25:48,072 [Worker-146] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2020-06-08 16:25:48,073 [Worker-146] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 16:25:48,073 [Worker-146] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-08 16:26:02,356 [Worker-142] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 16:26:02,357 [Worker-142] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2020-06-08 16:26:02,357 [Worker-142] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 16:26:02,357 [Worker-142] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-08 16:27:14,087 [Worker-150] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 16:27:14,087 [Worker-150] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2020-06-08 16:27:14,088 [Worker-150] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 16:27:14,088 [Worker-150] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-08 16:27:53,641 [Worker-146] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 16:27:53,642 [Worker-146] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2020-06-08 16:27:53,642 [Worker-146] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 16:27:53,642 [Worker-146] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-08 16:29:46,504 [Worker-146] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 16:29:46,505 [Worker-146] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2020-06-08 16:29:46,506 [Worker-146] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 16:29:46,506 [Worker-146] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-08 16:30:39,209 [Worker-151] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 16:30:39,209 [Worker-151] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-06-08 16:30:39,210 [Worker-151] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 16:30:39,210 [Worker-151] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-08 16:30:40,219 [Worker-148] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 16:30:40,219 [Worker-148] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2020-06-08 16:30:40,221 [Worker-148] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 16:30:40,221 [Worker-148] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-08 16:32:58,235 [Worker-148] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 16:32:58,236 [Worker-148] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2020-06-08 16:32:58,241 [Worker-148] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 16:32:58,241 [Worker-148] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-08 16:33:40,228 [Worker-152] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 16:33:40,229 [Worker-152] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2020-06-08 16:33:40,229 [Worker-152] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 16:33:40,229 [Worker-152] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-08 16:34:10,268 [Worker-151] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 16:34:10,269 [Worker-151] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2020-06-08 16:34:10,270 [Worker-151] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 16:34:10,270 [Worker-151] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-08 16:35:09,380 [Worker-146] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 16:35:09,380 [Worker-146] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2020-06-08 16:35:09,381 [Worker-146] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 16:35:09,381 [Worker-146] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-08 16:36:06,297 [Worker-142] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 16:36:06,298 [Worker-142] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2020-06-08 16:36:06,299 [Worker-142] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 16:36:06,299 [Worker-142] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-08 16:37:10,671 [Worker-142] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 16:37:10,672 [Worker-142] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2020-06-08 16:37:10,672 [Worker-142] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 16:37:10,672 [Worker-142] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-08 16:37:38,320 [Worker-142] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 16:37:38,320 [Worker-142] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2020-06-08 16:37:38,321 [Worker-142] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 16:37:38,321 [Worker-142] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-08 16:38:39,775 [Worker-148] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 16:38:39,776 [Worker-148] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2020-06-08 16:38:39,777 [Worker-148] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 16:38:39,777 [Worker-148] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-08 16:39:42,636 [Worker-142] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 16:39:42,637 [Worker-142] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2020-06-08 16:39:42,637 [Worker-142] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 16:39:42,637 [Worker-142] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-08 16:39:52,367 [Worker-151] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 16:39:52,368 [Worker-151] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2020-06-08 16:39:52,368 [Worker-151] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 16:39:52,368 [Worker-151] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-08 16:48:38,666 [Worker-151] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 16:48:38,667 [Worker-151] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2020-06-08 16:48:38,668 [Worker-151] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 16:48:38,668 [Worker-151] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-08 16:50:48,574 [Worker-153] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 16:50:48,574 [Worker-153] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2020-06-08 16:50:48,575 [Worker-153] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 16:50:48,575 [Worker-153] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-08 16:51:33,463 [Worker-155] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 16:51:33,463 [Worker-155] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2020-06-08 16:51:33,464 [Worker-155] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 16:51:33,464 [Worker-155] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-08 16:52:26,025 [Worker-155] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 16:52:26,025 [Worker-155] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2020-06-08 16:52:26,026 [Worker-155] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 16:52:26,026 [Worker-155] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-08 16:53:29,635 [Worker-154] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 16:53:29,636 [Worker-154] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2020-06-08 16:53:29,636 [Worker-154] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 16:53:29,636 [Worker-154] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-08 16:56:09,692 [Worker-157] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 16:56:09,693 [Worker-157] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2020-06-08 16:56:09,698 [Worker-157] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 16:56:09,698 [Worker-157] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-08 16:57:37,112 [Worker-155] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 16:57:37,112 [Worker-155] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-06-08 16:57:37,114 [Worker-155] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 16:57:37,114 [Worker-155] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-08 16:57:38,120 [Worker-153] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 16:57:38,120 [Worker-153] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-06-08 16:57:38,121 [Worker-153] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 16:57:38,121 [Worker-153] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-08 16:58:08,152 [Worker-153] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 16:58:08,152 [Worker-153] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 5 resources
+2020-06-08 16:58:08,153 [Worker-153] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 16:58:08,153 [Worker-153] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-08 17:01:37,082 [Worker-156] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 17:01:37,083 [Worker-156] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 5 resources
+2020-06-08 17:01:37,084 [Worker-156] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 17:01:37,085 [Worker-156] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-08 17:02:02,789 [Worker-155] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 17:02:02,790 [Worker-155] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 5 resources
+2020-06-08 17:02:02,791 [Worker-155] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 17:02:02,791 [Worker-155] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-08 17:16:20,337 [Worker-156] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 17:16:20,337 [Worker-156] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 5 resources
+2020-06-08 17:16:20,338 [Worker-156] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 17:16:20,338 [Worker-156] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-08 17:17:28,301 [Worker-154] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 17:17:28,302 [Worker-154] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 5 resources
+2020-06-08 17:17:28,303 [Worker-154] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 17:17:28,303 [Worker-154] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-08 17:26:20,831 [Worker-160] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 17:26:20,832 [Worker-160] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 5 resources
+2020-06-08 17:26:20,833 [Worker-160] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 17:26:20,833 [Worker-160] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-08 17:26:41,804 [Worker-158] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 17:26:41,805 [Worker-158] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 5 resources
+2020-06-08 17:26:41,806 [Worker-158] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 17:26:41,806 [Worker-158] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-08 17:27:23,306 [Worker-155] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 17:27:23,307 [Worker-155] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 5 resources
+2020-06-08 17:27:23,308 [Worker-155] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 17:27:23,308 [Worker-155] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-08 17:27:45,995 [Worker-158] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 17:27:45,997 [Worker-158] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 5 resources
+2020-06-08 17:27:45,998 [Worker-158] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 17:27:45,998 [Worker-158] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-08 17:28:25,896 [Worker-160] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 17:28:25,897 [Worker-160] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-06-08 17:28:25,898 [Worker-160] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 17:28:25,898 [Worker-160] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-08 17:28:26,905 [Worker-156] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 17:28:26,905 [Worker-156] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-06-08 17:28:26,906 [Worker-156] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 17:28:26,906 [Worker-156] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-08 17:30:57,525 [Worker-158] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 17:30:57,525 [Worker-158] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2020-06-08 17:30:57,526 [Worker-158] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 17:30:57,527 [Worker-158] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-08 17:31:13,249 [Worker-161] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 17:31:13,249 [Worker-161] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2020-06-08 17:31:13,250 [Worker-161] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 17:31:13,250 [Worker-161] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-08 17:31:29,228 [Worker-160] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 17:31:29,228 [Worker-160] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2020-06-08 17:31:29,230 [Worker-160] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 17:31:29,230 [Worker-160] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-08 17:32:54,374 [Worker-158] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 17:32:54,374 [Worker-158] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2020-06-08 17:32:54,375 [Worker-158] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 17:32:54,375 [Worker-158] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-08 17:33:27,238 [Worker-161] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 17:33:27,238 [Worker-161] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2020-06-08 17:33:27,239 [Worker-161] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 17:33:27,240 [Worker-161] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-08 17:33:45,541 [Worker-158] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 17:33:45,541 [Worker-158] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2020-06-08 17:33:45,542 [Worker-158] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 17:33:45,542 [Worker-158] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-08 17:34:26,707 [Worker-160] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 17:34:26,707 [Worker-160] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2020-06-08 17:34:26,708 [Worker-160] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 17:34:26,708 [Worker-160] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-08 17:35:28,263 [Worker-156] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 17:35:28,264 [Worker-156] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2020-06-08 17:35:28,265 [Worker-156] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 17:35:28,265 [Worker-156] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-08 17:37:07,915 [Worker-155] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 17:37:07,916 [Worker-155] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2020-06-08 17:37:07,917 [Worker-155] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 17:37:07,917 [Worker-155] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-08 17:37:45,108 [Worker-158] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 17:37:45,109 [Worker-158] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2020-06-08 17:37:45,109 [Worker-158] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 17:37:45,109 [Worker-158] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-08 17:53:42,314 [Worker-164] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 17:53:42,316 [Worker-164] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2020-06-08 17:53:42,317 [Worker-164] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 17:53:42,317 [Worker-164] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-08 17:55:42,110 [Worker-164] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 17:55:42,111 [Worker-164] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2020-06-08 17:55:42,112 [Worker-164] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 17:55:42,112 [Worker-164] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-08 17:55:54,705 [Worker-158] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 17:55:54,705 [Worker-158] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2020-06-08 17:55:54,706 [Worker-158] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 17:55:54,706 [Worker-158] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-08 18:05:32,126 [Worker-164] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 18:05:32,131 [Worker-164] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2020-06-08 18:05:32,132 [Worker-164] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 18:05:32,133 [Worker-164] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-08 18:05:42,056 [Worker-166] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 18:05:42,057 [Worker-166] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2020-06-08 18:05:42,058 [Worker-166] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 18:05:42,058 [Worker-166] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-08 18:06:46,086 [Worker-167] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 18:06:46,087 [Worker-167] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2020-06-08 18:06:46,088 [Worker-167] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 18:06:46,088 [Worker-167] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-08 18:10:29,659 [Worker-161] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 18:10:29,659 [Worker-161] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2020-06-08 18:10:29,666 [Worker-161] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 18:10:29,666 [Worker-161] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-08 18:26:02,153 [Worker-164] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 18:26:02,154 [Worker-164] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2020-06-08 18:26:02,159 [Worker-164] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 18:26:02,159 [Worker-164] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-08 18:26:06,722 [Worker-171] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 18:26:06,723 [Worker-171] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2020-06-08 18:26:06,724 [Worker-171] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 18:26:06,724 [Worker-171] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-08 18:26:57,003 [Worker-171] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 18:26:57,003 [Worker-171] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2020-06-08 18:26:57,010 [Worker-171] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 18:26:57,010 [Worker-171] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-08 18:28:35,574 [Worker-173] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 18:28:35,575 [Worker-173] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2020-06-08 18:28:35,580 [Worker-173] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 18:28:35,580 [Worker-173] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-08 18:28:46,683 [Worker-164] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 18:28:46,683 [Worker-164] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2020-06-08 18:28:46,684 [Worker-164] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 18:28:46,684 [Worker-164] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-08 18:30:14,766 [Worker-171] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 18:30:14,767 [Worker-171] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2020-06-08 18:30:14,767 [Worker-171] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 18:30:14,767 [Worker-171] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-08 18:32:14,538 [Worker-174] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 18:32:14,539 [Worker-174] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2020-06-08 18:32:14,539 [Worker-174] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 18:32:14,539 [Worker-174] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-08 18:32:56,424 [Worker-164] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 18:32:56,424 [Worker-164] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2020-06-08 18:32:56,425 [Worker-164] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 18:32:56,425 [Worker-164] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-08 18:42:29,832 [Worker-176] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 18:42:29,833 [Worker-176] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2020-06-08 18:42:29,838 [Worker-176] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 18:42:29,838 [Worker-176] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-08 18:43:18,151 [Worker-179] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 18:43:18,152 [Worker-179] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2020-06-08 18:43:18,152 [Worker-179] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 18:43:18,152 [Worker-179] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-08 18:44:25,829 [Worker-174] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 18:44:25,830 [Worker-174] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2020-06-08 18:44:25,830 [Worker-174] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 18:44:25,831 [Worker-174] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-08 18:56:55,373 [Worker-181] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 18:56:55,374 [Worker-181] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2020-06-08 18:56:55,376 [Worker-181] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 18:56:55,376 [Worker-181] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-08 18:57:01,637 [Worker-181] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 18:57:01,637 [Worker-181] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2020-06-08 18:57:01,643 [Worker-181] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 18:57:01,643 [Worker-181] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-08 18:57:38,059 [Worker-181] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 18:57:38,059 [Worker-181] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2020-06-08 18:57:38,067 [Worker-181] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 18:57:38,067 [Worker-181] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-08 18:58:31,934 [Worker-182] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 18:58:31,935 [Worker-182] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2020-06-08 18:58:31,937 [Worker-182] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 18:58:31,937 [Worker-182] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-08 18:58:40,632 [Worker-175] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 18:58:40,632 [Worker-175] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2020-06-08 18:58:40,637 [Worker-175] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 18:58:40,638 [Worker-175] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-08 18:59:17,096 [Worker-180] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 18:59:17,096 [Worker-180] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2020-06-08 18:59:17,102 [Worker-180] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 18:59:17,102 [Worker-180] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-08 19:03:53,301 [Worker-175] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 19:03:53,302 [Worker-175] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2020-06-08 19:03:53,303 [Worker-175] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 19:03:53,304 [Worker-175] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-08 19:04:05,091 [Worker-180] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 19:04:05,091 [Worker-180] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2020-06-08 19:04:05,097 [Worker-180] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 19:04:05,097 [Worker-180] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-08 19:05:40,735 [Worker-180] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 19:05:40,736 [Worker-180] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2020-06-08 19:05:40,737 [Worker-180] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 19:05:40,737 [Worker-180] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-08 19:05:55,337 [Worker-181] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 19:05:55,338 [Worker-181] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2020-06-08 19:05:55,339 [Worker-181] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 19:05:55,339 [Worker-181] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-08 19:06:08,630 [Worker-180] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 19:06:08,631 [Worker-180] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2020-06-08 19:06:08,631 [Worker-180] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 19:06:08,631 [Worker-180] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-08 19:07:32,195 [Worker-180] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 19:07:32,195 [Worker-180] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2020-06-08 19:07:32,196 [Worker-180] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 19:07:32,196 [Worker-180] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-08 19:11:35,741 [Worker-175] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 19:11:35,742 [Worker-175] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2020-06-08 19:11:35,742 [Worker-175] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 19:11:35,743 [Worker-175] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-08 19:11:57,278 [Worker-175] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 19:11:57,279 [Worker-175] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2020-06-08 19:11:57,279 [Worker-175] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 19:11:57,279 [Worker-175] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-08 19:24:04,835 [Worker-186] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 19:24:04,838 [Worker-186] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2020-06-08 19:24:04,840 [Worker-186] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 19:24:04,840 [Worker-186] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-08 19:24:30,907 [Worker-188] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 19:24:30,908 [Worker-188] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2020-06-08 19:24:30,909 [Worker-188] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 19:24:30,909 [Worker-188] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-08 19:50:36,832 [Worker-186] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 19:50:36,833 [Worker-186] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2020-06-08 19:50:36,834 [Worker-186] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 19:50:36,834 [Worker-186] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-08 19:54:26,626 [Worker-186] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 19:54:26,627 [Worker-186] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2020-06-08 19:54:26,628 [Worker-186] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 19:54:26,628 [Worker-186] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-08 19:59:09,124 [Worker-196] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 19:59:09,125 [Worker-196] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2020-06-08 19:59:09,127 [Worker-196] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 19:59:09,127 [Worker-196] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-08 19:59:36,896 [Worker-194] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 19:59:36,896 [Worker-194] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2020-06-08 19:59:36,897 [Worker-194] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 19:59:36,897 [Worker-194] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-08 20:01:52,320 [Worker-195] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 20:01:52,320 [Worker-195] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2020-06-08 20:01:52,323 [Worker-195] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 20:01:52,323 [Worker-195] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-08 20:03:16,243 [Worker-196] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 20:03:16,243 [Worker-196] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2020-06-08 20:03:16,245 [Worker-196] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 20:03:16,245 [Worker-196] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-08 20:03:49,665 [Worker-197] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 20:03:49,666 [Worker-197] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2020-06-08 20:03:49,668 [Worker-197] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 20:03:49,668 [Worker-197] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-08 20:08:04,084 [Worker-186] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 20:08:04,084 [Worker-186] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2020-06-08 20:08:04,086 [Worker-186] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 20:08:04,086 [Worker-186] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-08 20:09:15,219 [Worker-186] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 20:09:15,220 [Worker-186] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2020-06-08 20:09:15,221 [Worker-186] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 20:09:15,221 [Worker-186] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-08 20:10:38,541 [Worker-197] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 20:10:38,542 [Worker-197] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2020-06-08 20:10:38,544 [Worker-197] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 20:10:38,544 [Worker-197] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-08 20:11:53,614 [Worker-198] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 20:11:53,614 [Worker-198] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2020-06-08 20:11:53,616 [Worker-198] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 20:11:53,616 [Worker-198] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-08 20:14:07,680 [Worker-196] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 20:14:07,680 [Worker-196] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2020-06-08 20:14:07,682 [Worker-196] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 20:14:07,682 [Worker-196] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-08 20:15:46,191 [Worker-193] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 20:15:46,191 [Worker-193] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2020-06-08 20:15:46,193 [Worker-193] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 20:15:46,193 [Worker-193] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-08 20:16:09,768 [Worker-193] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 20:16:09,769 [Worker-193] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2020-06-08 20:16:09,770 [Worker-193] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 20:16:09,770 [Worker-193] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-08 20:17:34,142 [Worker-196] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 20:17:34,143 [Worker-196] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2020-06-08 20:17:34,144 [Worker-196] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 20:17:34,144 [Worker-196] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-08 20:18:00,966 [Worker-200] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 20:18:00,967 [Worker-200] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2020-06-08 20:18:00,968 [Worker-200] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 20:18:00,968 [Worker-200] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-08 20:30:28,697 [Worker-193] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 20:30:28,698 [Worker-193] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2020-06-08 20:30:28,699 [Worker-193] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 20:30:28,699 [Worker-193] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-08 20:41:51,144 [Worker-197] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 20:41:51,148 [Worker-197] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2020-06-08 20:41:51,150 [Worker-197] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 20:41:51,150 [Worker-197] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-08 20:44:30,438 [Worker-196] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 20:44:30,439 [Worker-196] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2020-06-08 20:44:30,440 [Worker-196] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 20:44:30,440 [Worker-196] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-08 20:45:43,417 [Worker-193] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 20:45:43,419 [Worker-193] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2020-06-08 20:45:43,421 [Worker-193] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 20:45:43,421 [Worker-193] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-08 20:46:52,095 [Worker-193] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 20:46:52,096 [Worker-193] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2020-06-08 20:46:52,098 [Worker-193] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 20:46:52,098 [Worker-193] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-08 20:48:40,938 [Worker-193] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 20:48:40,939 [Worker-193] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2020-06-08 20:48:40,940 [Worker-193] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 20:48:40,940 [Worker-193] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-08 20:49:43,011 [Worker-197] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 20:49:43,011 [Worker-197] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2020-06-08 20:49:43,013 [Worker-197] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 20:49:43,013 [Worker-197] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-08 20:55:14,238 [Worker-202] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 20:55:14,238 [Worker-202] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2020-06-08 20:55:14,240 [Worker-202] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 20:55:14,240 [Worker-202] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-08 20:56:01,536 [Worker-200] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 20:56:01,536 [Worker-200] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2020-06-08 20:56:01,537 [Worker-200] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 20:56:01,537 [Worker-200] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-08 20:57:31,750 [Worker-202] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 20:57:31,751 [Worker-202] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2020-06-08 20:57:31,752 [Worker-202] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 20:57:31,752 [Worker-202] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-08 20:58:22,551 [Worker-197] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 20:58:22,552 [Worker-197] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2020-06-08 20:58:22,553 [Worker-197] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 20:58:22,553 [Worker-197] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-08 20:59:15,930 [Worker-200] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 20:59:15,930 [Worker-200] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2020-06-08 20:59:15,931 [Worker-200] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 20:59:15,932 [Worker-200] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-08 21:00:11,816 [Worker-197] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 21:00:11,816 [Worker-197] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2020-06-08 21:00:11,817 [Worker-197] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 21:00:11,817 [Worker-197] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-08 21:06:18,949 [Worker-193] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 21:06:18,950 [Worker-193] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2020-06-08 21:06:18,953 [Worker-193] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 21:06:18,953 [Worker-193] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-08 21:07:22,523 [Worker-203] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 21:07:22,525 [Worker-203] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2020-06-08 21:07:22,527 [Worker-203] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 21:07:22,527 [Worker-203] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-08 21:08:55,114 [Worker-203] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 21:08:55,114 [Worker-203] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2020-06-08 21:08:55,115 [Worker-203] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 21:08:55,116 [Worker-203] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-08 21:10:02,639 [Worker-203] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 21:10:02,639 [Worker-203] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2020-06-08 21:10:02,643 [Worker-203] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 21:10:02,643 [Worker-203] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-08 21:10:57,901 [Worker-197] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 21:10:57,902 [Worker-197] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2020-06-08 21:10:57,903 [Worker-197] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 21:10:57,904 [Worker-197] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-08 21:13:27,596 [Worker-205] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 21:13:27,596 [Worker-205] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2020-06-08 21:13:27,597 [Worker-205] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 21:13:27,597 [Worker-205] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-08 21:14:39,272 [Worker-206] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 21:14:39,273 [Worker-206] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2020-06-08 21:14:39,274 [Worker-206] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 21:14:39,274 [Worker-206] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-08 21:15:30,537 [Worker-197] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 21:15:30,538 [Worker-197] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2020-06-08 21:15:30,540 [Worker-197] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 21:15:30,540 [Worker-197] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-08 21:16:29,800 [Worker-204] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 21:16:29,806 [Worker-204] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2020-06-08 21:16:29,808 [Worker-204] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 21:16:29,808 [Worker-204] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-08 21:17:19,217 [Worker-203] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 21:17:19,217 [Worker-203] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2020-06-08 21:17:19,220 [Worker-203] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 21:17:19,220 [Worker-203] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-08 21:18:16,291 [Worker-206] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 21:18:16,292 [Worker-206] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2020-06-08 21:18:16,293 [Worker-206] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 21:18:16,293 [Worker-206] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-08 21:19:33,056 [Worker-203] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 21:19:33,057 [Worker-203] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2020-06-08 21:19:33,058 [Worker-203] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 21:19:33,059 [Worker-203] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-08 21:21:38,753 [Worker-207] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 21:21:38,756 [Worker-207] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2020-06-08 21:21:38,758 [Worker-207] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 21:21:38,758 [Worker-207] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-08 21:22:34,586 [Worker-204] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 21:22:34,587 [Worker-204] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2020-06-08 21:22:34,589 [Worker-204] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 21:22:34,589 [Worker-204] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-08 23:03:24,217 [Worker-208] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 23:03:24,219 [Worker-208] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2020-06-08 23:03:24,221 [Worker-208] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 23:03:24,221 [Worker-208] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-08 23:03:50,631 [Worker-197] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 23:03:50,632 [Worker-197] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2020-06-08 23:03:50,633 [Worker-197] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 23:03:50,633 [Worker-197] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-08 23:05:41,281 [Worker-209] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 23:05:41,282 [Worker-209] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2020-06-08 23:05:41,284 [Worker-209] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 23:05:41,284 [Worker-209] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-08 23:07:16,404 [Worker-197] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 23:07:16,404 [Worker-197] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2020-06-08 23:07:16,406 [Worker-197] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 23:07:16,406 [Worker-197] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-08 23:10:43,992 [Worker-211] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 23:10:43,992 [Worker-211] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2020-06-08 23:10:43,994 [Worker-211] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 23:10:43,994 [Worker-211] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-08 23:13:57,835 [Worker-197] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 23:13:57,836 [Worker-197] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2020-06-08 23:13:57,837 [Worker-197] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 23:13:57,837 [Worker-197] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-08 23:15:09,791 [Worker-209] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 23:15:09,792 [Worker-209] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2020-06-08 23:15:09,793 [Worker-209] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 23:15:09,793 [Worker-209] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-08 23:19:02,554 [Worker-214] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 23:19:02,555 [Worker-214] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2020-06-08 23:19:02,556 [Worker-214] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 23:19:02,556 [Worker-214] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-08 23:25:32,760 [Worker-215] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 23:25:32,761 [Worker-215] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2020-06-08 23:25:32,763 [Worker-215] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 23:25:32,763 [Worker-215] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-08 23:30:51,632 [Worker-213] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 23:30:51,632 [Worker-213] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2020-06-08 23:30:51,633 [Worker-213] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 23:30:51,633 [Worker-213] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-08 23:31:37,526 [Worker-216] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 23:31:37,526 [Worker-216] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2020-06-08 23:31:37,527 [Worker-216] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 23:31:37,528 [Worker-216] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-08 23:32:37,260 [Worker-215] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 23:32:37,261 [Worker-215] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2020-06-08 23:32:37,262 [Worker-215] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 23:32:37,262 [Worker-215] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-08 23:33:45,437 [Worker-215] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 23:33:45,437 [Worker-215] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2020-06-08 23:33:45,439 [Worker-215] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 23:33:45,439 [Worker-215] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-08 23:34:56,777 [Worker-217] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 23:34:56,778 [Worker-217] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2020-06-08 23:34:56,779 [Worker-217] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 23:34:56,779 [Worker-217] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-08 23:36:05,682 [Worker-214] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 23:36:05,682 [Worker-214] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2020-06-08 23:36:05,684 [Worker-214] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 23:36:05,684 [Worker-214] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-08 23:36:48,378 [Worker-215] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 23:36:48,379 [Worker-215] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2020-06-08 23:36:48,381 [Worker-215] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 23:36:48,381 [Worker-215] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-08 23:39:02,212 [Worker-214] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 23:39:02,212 [Worker-214] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2020-06-08 23:39:02,213 [Worker-214] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 23:39:02,213 [Worker-214] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-08 23:39:43,308 [Worker-214] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 23:39:43,309 [Worker-214] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2020-06-08 23:39:43,313 [Worker-214] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 23:39:43,313 [Worker-214] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-08 23:41:50,053 [Worker-221] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 23:41:50,054 [Worker-221] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2020-06-08 23:41:50,054 [Worker-221] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 23:41:50,054 [Worker-221] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-08 23:45:14,432 [Worker-215] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 23:45:14,433 [Worker-215] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2020-06-08 23:45:14,433 [Worker-215] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 23:45:14,433 [Worker-215] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-08 23:55:48,468 [Worker-223] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 23:55:48,469 [Worker-223] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2020-06-08 23:55:48,469 [Worker-223] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 23:55:48,469 [Worker-223] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-08 23:56:24,461 [Worker-221] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 23:56:24,462 [Worker-221] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2020-06-08 23:56:24,463 [Worker-221] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 23:56:24,463 [Worker-221] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-08 23:56:29,446 [Worker-221] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 23:56:29,447 [Worker-221] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2020-06-08 23:56:29,447 [Worker-221] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 23:56:29,447 [Worker-221] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-08 23:57:16,650 [Worker-221] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 23:57:16,651 [Worker-221] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2020-06-08 23:57:16,651 [Worker-221] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 23:57:16,651 [Worker-221] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-08 23:57:29,805 [Worker-213] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 23:57:29,805 [Worker-213] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2020-06-08 23:57:29,806 [Worker-213] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 23:57:29,806 [Worker-213] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-08 23:57:59,809 [Worker-213] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 23:57:59,810 [Worker-213] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2020-06-08 23:57:59,812 [Worker-213] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 23:57:59,812 [Worker-213] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-08 23:58:32,934 [Worker-224] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 23:58:32,935 [Worker-224] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2020-06-08 23:58:32,935 [Worker-224] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 23:58:32,936 [Worker-224] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-08 23:59:29,933 [Worker-223] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 23:59:29,934 [Worker-223] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2020-06-08 23:59:29,934 [Worker-223] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-08 23:59:29,934 [Worker-223] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-09 00:00:24,564 [Worker-221] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-09 00:00:24,566 [Worker-221] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2020-06-09 00:00:24,567 [Worker-221] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-09 00:00:24,567 [Worker-221] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-09 00:00:35,760 [Worker-224] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-09 00:00:35,760 [Worker-224] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2020-06-09 00:00:35,761 [Worker-224] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-09 00:00:35,761 [Worker-224] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-09 00:01:30,175 [Worker-213] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-09 00:01:30,175 [Worker-213] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2020-06-09 00:01:30,176 [Worker-213] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-09 00:01:30,176 [Worker-213] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-09 00:02:17,937 [Worker-213] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-09 00:02:17,938 [Worker-213] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2020-06-09 00:02:17,939 [Worker-213] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-09 00:02:17,939 [Worker-213] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-09 00:05:18,663 [Worker-225] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-09 00:05:18,664 [Worker-225] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2020-06-09 00:05:18,665 [Worker-225] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-09 00:05:18,665 [Worker-225] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-09 00:05:54,936 [Worker-224] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-09 00:05:54,936 [Worker-224] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2020-06-09 00:05:54,937 [Worker-224] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-09 00:05:54,937 [Worker-224] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-09 00:08:30,000 [Worker-224] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-09 00:08:30,001 [Worker-224] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2020-06-09 00:08:30,001 [Worker-224] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-09 00:08:30,001 [Worker-224] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-09 00:09:28,014 [Worker-223] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-09 00:09:28,015 [Worker-223] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2020-06-09 00:09:28,022 [Worker-223] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-09 00:09:28,022 [Worker-223] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-09 00:11:01,124 [Worker-225] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-09 00:11:01,125 [Worker-225] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2020-06-09 00:11:01,131 [Worker-225] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-09 00:11:01,131 [Worker-225] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-09 00:13:47,526 [Worker-224] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-09 00:13:47,527 [Worker-224] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2020-06-09 00:13:47,527 [Worker-224] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-09 00:13:47,527 [Worker-224] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-09 00:14:16,392 [Worker-224] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-09 00:14:16,393 [Worker-224] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2020-06-09 00:14:16,393 [Worker-224] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-09 00:14:16,393 [Worker-224] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-09 00:16:08,678 [Worker-225] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-09 00:16:08,680 [Worker-225] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2020-06-09 00:16:08,680 [Worker-225] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-09 00:16:08,680 [Worker-225] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-09 00:18:00,526 [Worker-225] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-09 00:18:00,526 [Worker-225] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2020-06-09 00:18:00,527 [Worker-225] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-09 00:18:00,527 [Worker-225] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-09 12:30:05,329 [Worker-234] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-09 12:30:05,331 [Worker-234] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2020-06-09 12:30:05,333 [Worker-234] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-09 12:30:05,333 [Worker-234] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-09 12:42:22,364 [Worker-247] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-09 12:42:22,366 [Worker-247] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2020-06-09 12:42:22,367 [Worker-247] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-09 12:42:22,367 [Worker-247] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-09 12:43:07,261 [Worker-246] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-09 12:43:07,262 [Worker-246] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2020-06-09 12:43:07,262 [Worker-246] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-09 12:43:07,262 [Worker-246] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-09 12:51:30,622 [Worker-239] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-09 12:51:30,626 [Worker-239] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2020-06-09 12:51:30,627 [Worker-239] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-09 12:51:30,627 [Worker-239] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-09 12:51:46,382 [Worker-239] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-09 12:51:46,383 [Worker-239] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2020-06-09 12:51:46,383 [Worker-239] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-09 12:51:46,384 [Worker-239] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-09 12:55:41,011 [Worker-242] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-09 12:55:41,013 [Worker-242] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2020-06-09 12:55:41,014 [Worker-242] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-09 12:55:41,014 [Worker-242] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-09 13:01:26,851 [Worker-242] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-09 13:01:26,854 [Worker-242] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2020-06-09 13:01:26,855 [Worker-242] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-09 13:01:26,855 [Worker-242] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-09 13:12:12,616 [Worker-245] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-09 13:12:12,620 [Worker-245] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2020-06-09 13:12:12,621 [Worker-245] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-09 13:12:12,621 [Worker-245] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-09 13:12:21,252 [Worker-246] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-09 13:12:21,253 [Worker-246] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2020-06-09 13:12:21,254 [Worker-246] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-09 13:12:21,254 [Worker-246] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-09 13:12:50,619 [Worker-249] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-09 13:12:50,619 [Worker-249] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2020-06-09 13:12:50,620 [Worker-249] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-09 13:12:50,620 [Worker-249] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-09 13:13:01,518 [Worker-239] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-09 13:13:01,519 [Worker-239] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2020-06-09 13:13:01,520 [Worker-239] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-09 13:13:01,520 [Worker-239] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-09 13:13:04,820 [Worker-239] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-09 13:13:04,821 [Worker-239] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2020-06-09 13:13:04,821 [Worker-239] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-09 13:13:04,821 [Worker-239] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-09 13:13:13,170 [Worker-239] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-09 13:13:13,171 [Worker-239] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2020-06-09 13:13:13,171 [Worker-239] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-09 13:13:13,171 [Worker-239] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-09 13:13:44,106 [Worker-250] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-09 13:13:44,108 [Worker-250] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2020-06-09 13:13:44,109 [Worker-250] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-09 13:13:44,109 [Worker-250] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-09 13:14:08,803 [Worker-250] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-09 13:14:08,804 [Worker-250] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2020-06-09 13:14:08,804 [Worker-250] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-09 13:14:08,804 [Worker-250] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-09 13:14:43,619 [Worker-245] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-09 13:14:43,622 [Worker-245] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2020-06-09 13:14:43,622 [Worker-245] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-09 13:14:43,622 [Worker-245] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-09 13:16:45,406 [Worker-245] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-09 13:16:45,407 [Worker-245] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2020-06-09 13:16:45,408 [Worker-245] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-09 13:16:45,408 [Worker-245] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-09 13:17:57,453 [Worker-251] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-09 13:17:57,454 [Worker-251] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2020-06-09 13:17:57,454 [Worker-251] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-09 13:17:57,454 [Worker-251] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-09 13:19:59,924 [Worker-245] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-09 13:19:59,925 [Worker-245] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2020-06-09 13:19:59,925 [Worker-245] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-09 13:19:59,925 [Worker-245] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-09 13:20:37,486 [Worker-253] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-09 13:20:37,487 [Worker-253] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2020-06-09 13:20:37,487 [Worker-253] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-09 13:20:37,487 [Worker-253] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-09 13:21:30,771 [Worker-239] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-09 13:21:30,771 [Worker-239] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2020-06-09 13:21:30,772 [Worker-239] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-09 13:21:30,772 [Worker-239] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-09 13:27:21,594 [Worker-253] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-09 13:27:21,598 [Worker-253] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-06-09 13:27:21,601 [Worker-253] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-09 13:27:21,601 [Worker-253] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-09 13:27:22,609 [Worker-253] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-09 13:27:22,611 [Worker-253] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-06-09 13:27:22,611 [Worker-253] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-09 13:27:22,612 [Worker-253] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-09 13:35:10,633 [Worker-254] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-09 13:35:10,634 [Worker-254] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2020-06-09 13:35:10,636 [Worker-254] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-09 13:35:10,636 [Worker-254] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-09 14:03:42,262 [Worker-262] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-09 14:03:42,263 [Worker-262] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2020-06-09 14:03:42,271 [Worker-262] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-09 14:03:42,271 [Worker-262] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-09 14:36:55,235 [Worker-264] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-09 14:36:55,241 [Worker-264] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2020-06-09 14:36:55,243 [Worker-264] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-09 14:36:55,243 [Worker-264] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-09 14:37:54,954 [Worker-263] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-09 14:37:54,955 [Worker-263] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2020-06-09 14:37:54,963 [Worker-263] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-09 14:37:54,963 [Worker-263] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-09 14:40:35,775 [Worker-253] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-09 14:40:35,776 [Worker-253] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2020-06-09 14:40:35,776 [Worker-253] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-09 14:40:35,776 [Worker-253] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-09 14:42:56,006 [Worker-264] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-09 14:42:56,006 [Worker-264] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2020-06-09 14:42:56,007 [Worker-264] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-09 14:42:56,007 [Worker-264] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-09 14:43:09,962 [Worker-263] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-09 14:43:09,962 [Worker-263] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2020-06-09 14:43:09,963 [Worker-263] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-09 14:43:09,963 [Worker-263] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-09 14:59:54,842 [Worker-269] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-09 14:59:54,845 [Worker-269] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-06-09 14:59:54,846 [Worker-269] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-09 14:59:54,846 [Worker-269] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-09 14:59:55,857 [Worker-267] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-09 14:59:55,857 [Worker-267] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-06-09 14:59:55,858 [Worker-267] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-09 14:59:55,858 [Worker-267] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-09 15:01:55,682 [Worker-267] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-09 15:01:55,682 [Worker-267] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 7 resources
+2020-06-09 15:01:55,684 [Worker-267] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-09 15:01:55,684 [Worker-267] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-09 15:02:13,057 [Worker-270] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-09 15:02:13,058 [Worker-270] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 7 resources
+2020-06-09 15:02:13,059 [Worker-270] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-09 15:02:13,059 [Worker-270] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-09 15:06:15,893 [Worker-270] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-09 15:06:15,894 [Worker-270] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 7 resources
+2020-06-09 15:06:15,894 [Worker-270] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-09 15:06:15,894 [Worker-270] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-09 15:08:16,019 [Worker-267] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-09 15:08:16,021 [Worker-267] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 7 resources
+2020-06-09 15:08:16,021 [Worker-267] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-09 15:08:16,021 [Worker-267] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-09 15:13:51,471 [Worker-269] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-09 15:13:51,474 [Worker-269] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 7 resources
+2020-06-09 15:13:51,475 [Worker-269] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-09 15:13:51,475 [Worker-269] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-09 15:21:43,098 [Worker-272] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-09 15:21:43,100 [Worker-272] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 7 resources
+2020-06-09 15:21:43,102 [Worker-272] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-09 15:21:43,102 [Worker-272] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-09 19:36:27,900 [Worker-275] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-09 19:36:27,903 [Worker-275] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-06-09 19:36:27,914 [Worker-275] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-09 19:36:27,914 [Worker-275] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-09 19:36:28,943 [Worker-276] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-09 19:36:28,943 [Worker-276] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-06-09 19:36:28,946 [Worker-276] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-09 19:36:28,946 [Worker-276] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-09 20:04:18,430 [Worker-281] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-09 20:04:18,433 [Worker-281] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
+2020-06-09 20:04:18,435 [Worker-281] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-09 20:04:18,435 [Worker-281] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-09 20:12:04,646 [Worker-280] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-09 20:12:04,650 [Worker-280] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
+2020-06-09 20:12:04,651 [Worker-280] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-09 20:12:04,652 [Worker-280] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-09 20:12:29,440 [Worker-270] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-09 20:12:29,441 [Worker-270] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
+2020-06-09 20:12:29,441 [Worker-270] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-09 20:12:29,441 [Worker-270] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-09 20:13:16,257 [Worker-278] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-09 20:13:16,258 [Worker-278] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
+2020-06-09 20:13:16,259 [Worker-278] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-09 20:13:16,259 [Worker-278] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-09 20:13:35,404 [Worker-280] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-09 20:13:35,405 [Worker-280] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
+2020-06-09 20:13:35,405 [Worker-280] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-09 20:13:35,405 [Worker-280] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-09 20:13:45,051 [Worker-281] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-09 20:13:45,052 [Worker-281] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
+2020-06-09 20:13:45,052 [Worker-281] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-09 20:13:45,052 [Worker-281] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-09 20:14:22,492 [Worker-270] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-09 20:14:22,493 [Worker-270] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
+2020-06-09 20:14:22,494 [Worker-270] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-09 20:14:22,494 [Worker-270] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-09 20:19:18,776 [Worker-279] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-09 20:19:18,777 [Worker-279] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
+2020-06-09 20:19:18,778 [Worker-279] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-09 20:19:18,778 [Worker-279] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-09 21:02:55,162 [Worker-282] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-09 21:02:55,164 [Worker-282] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
+2020-06-09 21:02:55,165 [Worker-282] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-09 21:02:55,165 [Worker-282] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-09 21:05:35,451 [Worker-281] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-09 21:05:35,452 [Worker-281] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
+2020-06-09 21:05:35,452 [Worker-281] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-09 21:05:35,452 [Worker-281] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-09 21:10:17,467 [Worker-281] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-09 21:10:17,473 [Worker-281] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
+2020-06-09 21:10:17,473 [Worker-281] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-09 21:10:17,473 [Worker-281] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-09 21:13:45,641 [Worker-282] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-09 21:13:45,641 [Worker-282] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
+2020-06-09 21:13:45,642 [Worker-282] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-09 21:13:45,642 [Worker-282] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-09 21:15:07,144 [Worker-283] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-09 21:15:07,147 [Worker-283] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
+2020-06-09 21:15:07,147 [Worker-283] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-09 21:15:07,147 [Worker-283] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-09 21:15:23,104 [Worker-278] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-09 21:15:23,105 [Worker-278] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
+2020-06-09 21:15:23,105 [Worker-278] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-09 21:15:23,105 [Worker-278] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-09 21:16:03,068 [Worker-284] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-09 21:16:03,069 [Worker-284] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
+2020-06-09 21:16:03,070 [Worker-284] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-09 21:16:03,070 [Worker-284] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-09 21:17:30,394 [Worker-270] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-09 21:17:30,394 [Worker-270] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
+2020-06-09 21:17:30,405 [Worker-270] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-09 21:17:30,405 [Worker-270] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-09 21:18:10,431 [Worker-278] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-09 21:18:10,431 [Worker-278] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
+2020-06-09 21:18:10,433 [Worker-278] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-09 21:18:10,433 [Worker-278] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-09 21:18:59,832 [Worker-270] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-09 21:18:59,832 [Worker-270] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
+2020-06-09 21:18:59,845 [Worker-270] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-09 21:18:59,845 [Worker-270] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-09 21:19:41,018 [Worker-283] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-09 21:19:41,018 [Worker-283] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
+2020-06-09 21:19:41,023 [Worker-283] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-09 21:19:41,023 [Worker-283] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-09 21:21:07,099 [Worker-278] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-09 21:21:07,099 [Worker-278] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
+2020-06-09 21:21:07,106 [Worker-278] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-09 21:21:07,106 [Worker-278] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-09 21:22:36,662 [Worker-283] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-09 21:22:36,662 [Worker-283] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
+2020-06-09 21:22:36,668 [Worker-283] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-09 21:22:36,668 [Worker-283] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-09 21:25:21,916 [Worker-285] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-09 21:25:21,917 [Worker-285] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
+2020-06-09 21:25:21,917 [Worker-285] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-09 21:25:21,917 [Worker-285] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-09 21:26:02,238 [Worker-285] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-09 21:26:02,238 [Worker-285] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-06-09 21:26:02,238 [Worker-285] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-09 21:26:02,238 [Worker-285] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-09 21:26:03,245 [Worker-285] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-09 21:26:03,246 [Worker-285] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-06-09 21:26:03,246 [Worker-285] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-09 21:26:03,246 [Worker-285] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-09 21:26:55,440 [Worker-285] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-09 21:26:55,440 [Worker-285] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
+2020-06-09 21:26:55,446 [Worker-285] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-09 21:26:55,446 [Worker-285] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-09 21:27:43,591 [Worker-284] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-09 21:27:43,592 [Worker-284] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
+2020-06-09 21:27:43,596 [Worker-284] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-09 21:27:43,597 [Worker-284] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-09 21:29:26,186 [Worker-286] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-09 21:29:26,187 [Worker-286] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
+2020-06-09 21:29:26,188 [Worker-286] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-09 21:29:26,188 [Worker-286] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-09 21:30:24,458 [Worker-286] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-09 21:30:24,459 [Worker-286] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
+2020-06-09 21:30:24,460 [Worker-286] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-09 21:30:24,460 [Worker-286] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-09 21:32:58,192 [Worker-285] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-09 21:32:58,192 [Worker-285] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
+2020-06-09 21:32:58,193 [Worker-285] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-09 21:32:58,193 [Worker-285] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-09 21:33:55,170 [Worker-287] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-09 21:33:55,171 [Worker-287] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
+2020-06-09 21:33:55,171 [Worker-287] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-09 21:33:55,171 [Worker-287] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-09 21:35:59,364 [Worker-287] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-09 21:35:59,365 [Worker-287] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
+2020-06-09 21:35:59,365 [Worker-287] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-09 21:35:59,365 [Worker-287] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-09 21:37:19,277 [Worker-284] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-09 21:37:19,277 [Worker-284] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-06-09 21:37:19,279 [Worker-284] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-09 21:37:19,279 [Worker-284] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-09 21:37:32,937 [Worker-287] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-09 21:37:32,937 [Worker-287] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-06-09 21:37:32,938 [Worker-287] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-09 21:37:32,938 [Worker-287] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-09 21:41:14,706 [Worker-284] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-09 21:41:14,707 [Worker-284] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 9 resources
+2020-06-09 21:41:14,708 [Worker-284] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-09 21:41:14,708 [Worker-284] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-09 21:41:19,897 [Worker-287] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-09 21:41:19,897 [Worker-287] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 9 resources
+2020-06-09 21:41:19,902 [Worker-287] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-09 21:41:19,902 [Worker-287] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-09 21:46:32,526 [Worker-287] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-09 21:46:32,527 [Worker-287] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 9 resources
+2020-06-09 21:46:32,528 [Worker-287] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-09 21:46:32,528 [Worker-287] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-09 21:48:20,249 [Worker-291] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-09 21:48:20,250 [Worker-291] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 9 resources
+2020-06-09 21:48:20,255 [Worker-291] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-09 21:48:20,255 [Worker-291] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-09 21:50:12,889 [Worker-283] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-09 21:50:12,889 [Worker-283] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 9 resources
+2020-06-09 21:50:12,895 [Worker-283] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-09 21:50:12,895 [Worker-283] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-09 21:52:30,231 [Worker-284] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-09 21:52:30,231 [Worker-284] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 9 resources
+2020-06-09 21:52:30,237 [Worker-284] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-09 21:52:30,237 [Worker-284] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-09 21:54:29,399 [Worker-291] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-09 21:54:29,400 [Worker-291] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-06-09 21:54:29,400 [Worker-291] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-09 21:54:29,404 [Worker-291] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-09 21:54:30,422 [Worker-284] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-09 21:54:30,423 [Worker-284] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-06-09 21:54:30,424 [Worker-284] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-09 21:54:30,424 [Worker-284] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-09 21:54:57,427 [Worker-291] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-09 21:54:57,428 [Worker-291] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 9 resources
+2020-06-09 21:54:57,434 [Worker-291] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-09 21:54:57,434 [Worker-291] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-09 21:54:59,195 [Worker-294] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-09 21:54:59,195 [Worker-294] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-06-09 21:54:59,195 [Worker-294] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-09 21:54:59,195 [Worker-294] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources
+2020-06-09 21:55:12,025 [Worker-291] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-09 21:55:12,026 [Worker-291] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 9 resources
+2020-06-09 21:55:12,026 [Worker-291] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-09 21:55:12,026 [Worker-291] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/montana/Documents/Academics/UCSC_Quarter2_Spring2020/CMPM290/fresh_RDC/RDC-API-master/src/test/resources

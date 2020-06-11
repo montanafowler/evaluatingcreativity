@@ -1,0 +1,22 @@
+{
+    "river": ["river", "lake", "island", "ocean_beach", "water_shader", "texture", "solid_blue_shading", "solid_other_color_shading", "yes", "color_shading", "gradient"],
+    "lake": ["river", "lake", "island", "ocean_beach", "water_shader", "texture", "solid_blue_shading", "solid_other_color_shading", "yes", "color_shading", "gradient"],
+    "island": ["river", "lake", "island", "ocean_beach", "water_shader", "texture", "solid_blue_shading", "solid_other_color_shading", "yes", "color_shading", "gradient"],
+    "ocean_beach": ["river", "lake", "island", "ocean_beach", "water_shader", "texture", "solid_blue_shading", "solid_other_color_shading", "yes", "color_shading", "gradient"],
+    "water_shader": ["river", "lake", "island", "ocean_beach", "water_shader", "texture", "solid_blue_shading", "solid_other_color_shading", "yes", "color_shading", "gradient"],
+    "texture": ["river", "lake", "island", "ocean_beach", "water_shader", "texture", "solid_blue_shading", "solid_other_color_shading", "yes", "color_shading", "gradient"],
+    "solid_blue_shading": ["river", "lake", "island", "ocean_beach", "water_shader", "texture", "solid_blue_shading", "solid_other_color_shading", "yes", "color_shading", "gradient"],
+    "solid_other_color_shading": ["river", "lake", "island", "ocean_beach", "water_shader", "texture", "solid_blue_shading", "solid_other_color_shading", "yes", "color_shading", "gradient"],
+    "yes": ["river", "lake", "island", "ocean_beach", "water_shader", "texture", "solid_blue_shading", "solid_other_color_shading", "yes", "color_shading", "gradient"],
+    "color_shading": ["river", "lake", "island", "ocean_beach", "water_shader", "texture", "solid_blue_shading", "solid_other_color_shading", "yes", "color_shading", "gradient"],
+    "gradient": ["river", "lake", "island", "ocean_beach", "water_shader", "texture", "solid_blue_shading", "solid_other_color_shading", "yes", "color_shading", "gradient"],
+    "square_adjacent": [],
+    "nondescript_body_in_peaks": [],
+    "canal": [],
+    "solid_blue_no_shading": [],
+    "solid_other_color_no_shading": [],
+    "no": [],
+    "color_no_shading": [],
+    "adjacent_no_beach": [],
+    "none": []
+}

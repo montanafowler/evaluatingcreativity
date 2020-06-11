@@ -1,0 +1,92 @@
+
+package creative.framework.parser;
+
+import creative.framework.data.Instance;
+import creative.framework.model.SceneItem;
+import creative.framework.model.Scene;
+import java.util.HashMap;
+import java.util.Map;
+
+/**
+ *
+ * @author cel
+ */
+public class Lab7Parser implements Parser<Scene> {
+
+    private final Map<String, Integer> attributes;
+    private final Integer attributeCount;
+
+    public Lab7Parser() {
+        attributes = new HashMap<>();
+        Integer index = 0;
+        attributes.put("water_shape:river", index++);
+        attributes.put("water_shape:lake", index++);
+        attributes.put("water_shape:square_adjacent", index++);
+        attributes.put("water_shape:island", index++);
+        attributes.put("water_shape:nondescript_body_in_peaks", index++);
+        attributes.put("water_shape:canal", index++);
+        attributes.put("water_shape:ocean_beach", index++);
+        attributes.put("water_shape:adjacent_no_beach", index++);
+        attributes.put("water_shape:none", index++);
+        attributes.put("water_appearance:water_shader", index++);
+        attributes.put("water_appearance:texture", index++);
+        attributes.put("water_appearance:solid_blue_no_shading", index++);
+        attributes.put("water_appearance:solid_blue_shading", index++);
+        attributes.put("water_appearance:solid_other_color_shading", index++);
+        attributes.put("water_appearance:solid_other_color_no_shading", index++);
+        attributes.put("water_appearance:none", index++);
+        attributes.put("trees:yes", index++);
+        attributes.put("trees:no", index++);
+        attributes.put("clouds:yes", index++);
+        attributes.put("clouds:no", index++);
+        attributes.put("boats:yes", index++);
+        attributes.put("boats:no", index++);
+        attributes.put("animals:yes", index++);
+        attributes.put("animals:no", index++);
+        attributes.put("other_objects:yes", index++);
+        attributes.put("other_objects:no", index++);
+        attributes.put("particles:yes", index++);
+        attributes.put("particles:no", index++);
+        attributes.put("skybox:yes", index++);
+        attributes.put("skybox:no", index++);
+        attributes.put("mountain_appearance:texture", index++);
+        attributes.put("mountain_appearance:color_no_shading", index++);
+        attributes.put("mountain_appearance:gradient", index++);
+        attributes.put("mountain_appearance:color_shading", index++);
+        attributes.put("mountain_appearance:none", index++);
+        attributeCount = attributes.size();
+        
+        System.out.println("attributes" + attributes);
+
+    }
+
+    @Override
+    public Instance getInstance(Scene artifact) {
+        // Integer index;
+        String attributeName;
+        double[] dataInstance = new double[attributeCount];
+        
+      //  System.out.println(artifact.getSceneItems());
+
+        for (SceneItem item : artifact.getSceneItems()) {
+//        	System.out.println((item.getType() + ":" + item.getValue()));
+            attributeName = (item.getType() + ":" + item.getValue()).toLowerCase();
+            // index = attributes.get(attributeName);
+           // System.out.println(item);
+           // System.out.println(item.getType());
+           /// System.out.println("attributeName " + attributeName);
+//            System.out.println("attributes " + attributes);
+//            System.out.println("item " + item);
+            System.out.println(attributeName);
+            if(!attributeName.contains("id:")) {
+                dataInstance[attributes.get(attributeName)]++;      	
+            }
+        }
+        return new Instance(dataInstance);
+    }
+    
+    public Integer attributeCount(){
+        return attributeCount;
+    }
+
+}

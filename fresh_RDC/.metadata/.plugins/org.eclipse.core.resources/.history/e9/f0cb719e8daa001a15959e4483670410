@@ -1,0 +1,218 @@
+package creative.framework.main;
+
+import creative.framework.model.Apparel;
+import creative.framework.model.Artifact;
+import creative.framework.model.ClothingItem;
+import creative.framework.model.Color;
+import creative.framework.model.Scene;
+import creative.framework.model.SceneItem;
+import creative.framework.model.SceneValue;
+import creative.framework.model.Type;
+import creative.framework.util.Utils;
+
+import java.util.Arrays;
+import java.util.List;
+
+import com.google.gson.Gson;
+import com.google.gson.reflect.TypeToken;
+
+public class Main {
+
+    /**
+     * Main
+     *
+     * @param args
+     */
+    public static void main(String[] args) {
+    	// put input here about lab 7 to evaluate
+    	SceneValue waterShape = null;
+    	SceneValue waterAppearance = null;
+    	SceneValue trees = null;
+    	SceneValue clouds = null;
+    	SceneValue boats = null;
+    	SceneValue animals = null;
+    	SceneValue otherObjects = null;
+    	SceneValue particles = null;
+    	SceneValue skybox = null;
+    	SceneValue mountainAppearance = null;
+    	SceneValue id = null;
+    	
+    	//lab7Example(waterShape, waterAppearance, trees, clouds, boats, animals, otherObjects, particles, skybox, mountainAppearance, id);
+    	
+    	java.lang.reflect.Type artifactType = new TypeToken<List<Scene>>() {}.getType();
+        Gson gson = new Gson();
+        Utils utils = new Utils();
+        List<Scene> scenesToTest = gson.fromJson(utils.getReader("/datafiles/lab7Dataset.json"), artifactType);
+        
+        List<SceneItem> sceneItems;
+        Type type; 
+        SceneValue value;
+        for(Scene scene: scenesToTest) {
+        	sceneItems = scene.getSceneItems();
+        	for(SceneItem sceneItem: sceneItems) {
+        		switch(sceneItem.getType()) {
+        			case WATER_SHAPE:
+        				waterShape = sceneItem.getValue();
+        			case WATER_APPEARANCE:
+        				waterAppearance = sceneItem.getValue();
+        			case TREES:
+        				trees = sceneItem.getValue();
+        			case CLOUDS:
+        				clouds = sceneItem.getValue();
+        			case BOATS:
+        				boats = sceneItem.getValue();
+        			case ANIMALS:
+        				animals = sceneItem.getValue();
+        			case OTHER_OBJECTS:
+    					otherObjects = sceneItem.getValue();
+        			case PARTICLES:
+        				particles = sceneItem.getValue();
+        			case SKYBOX:
+        				skybox = sceneItem.getValue();
+        			case MOUNTAIN_APPEARANCE:
+        				mountainAppearance = sceneItem.getValue();
+        			case ID:
+        			default:
+        				id = sceneItem.getValue();	
+        		}
+        	}
+        	if ((waterShape != null) && 
+        			(waterAppearance != null) && 
+        			(trees != null) && 
+        			(clouds != null) && 
+        			(boats != null) && 
+        			(animals != null) && 
+        			(otherObjects != null) && 
+        			(particles != null) && 
+        			(skybox != null) && 
+        			(mountainAppearance != null) && 
+        			(id != null)) {
+        		lab7Example(waterShape, waterAppearance, trees, 
+        				clouds, boats, animals, otherObjects, 
+        				particles, skybox, mountainAppearance, id);
+        	}
+
+        }
+    	
+//        if (args.length < 3) {
+//            System.out.println("Insufficient number of arguments. \nEnter a colors to shirt, pants and shoes (in that order).");
+//        } else {
+//            List<String> shirtColors = Arrays.asList("BLUE", "GRAY", "LILAC", "NAVY", "WHITE", "blue", "gray", "lilac", "navy", "white");
+//            List<String> pantsColors = Arrays.asList("BLACK", "BROWN", "GRAY", "NAVY", "WHITE", "black", "brown", "gray", "navy", "white");
+//            List<String> shoesColors = Arrays.asList("BLACK", "BROWN", "GRAY", "NAVY", "WHITE", "black", "brown", "gray", "navy", "white");
+//
+//            String color1 = args[0].toUpperCase();
+//            String color2 = args[1].toUpperCase();
+//            String color3 = args[2].toUpperCase();
+//            if (shirtColors.contains(color1)) {
+//                if (pantsColors.contains(color2)) {
+//                    if (shoesColors.contains(color3)) {
+//                        apparelExample(color1, color2, color3);
+//                    } else {
+//                        System.out.println(color3 + " is not a color to shoes");
+//                    }
+//                } else {
+//                    System.out.println(color2 + " is not a color to pants");
+//                }
+//            } else {
+//                System.out.println(color1 + " is not a color to shirt");
+//            }
+//        }
+
+    }
+    
+    public static void lab7Example(
+    		SceneValue waterShape,
+    		SceneValue waterAppearance,
+    		SceneValue trees,
+    		SceneValue clouds,
+    		SceneValue boats,
+    		SceneValue animals,
+    		SceneValue otherObjects,
+    		SceneValue particles,
+    		SceneValue skybox,
+    		SceneValue mountainAppearance,
+    		SceneValue id) {
+    	
+//    	System.out.println("about to maek conteft");
+
+        // a context which the artifact is evalutated
+        ArtifactContext<Scene> context = new SceneContext(
+                "/datafiles/lab7Dataset.json",
+                "/datafiles/testSynergy.json");
+        System.out.println(context.toString());
+        //System.exit(0);
+
+        // a julde to evaluate an artifact in a context
+        ArtifactJudge judge = new SceneJudge();
+        
+        // some clothing items
+//        List<SceneItem> sceneItem = Arrays.asList(
+//                new SceneItem(Type.WATER_SHAPE, SceneValue.valueOf(waterShape)), 
+//                new SceneItem(Type.WATER_APPEARANCE, SceneValue.valueOf(waterAppearance)), 
+//                new SceneItem(Type.TREES, SceneValue.valueOf(trees)),
+//                new SceneItem(Type.CLOUDS, SceneValue.valueOf(clouds)), 
+//                new SceneItem(Type.BOATS, SceneValue.valueOf(boats)), 
+//                new SceneItem(Type.ANIMALS, SceneValue.valueOf(animals)),
+//                new SceneItem(Type.OTHER_OBJECTS, SceneValue.valueOf(otherObjects)), 
+//                new SceneItem(Type.PARTICLES, SceneValue.valueOf(particles)), 
+//                new SceneItem(Type.SKYBOX, SceneValue.valueOf(skybox)),
+//                new SceneItem(Type.MOUNTAIN_APPEARANCE, SceneValue.valueOf(mountainAppearance))); 
+        
+     // some clothing items
+        List<SceneItem> sceneItem = Arrays.asList(
+                new SceneItem(Type.WATER_SHAPE, waterShape), 
+                new SceneItem(Type.WATER_APPEARANCE, waterAppearance), 
+                new SceneItem(Type.TREES, trees),
+                new SceneItem(Type.CLOUDS, clouds), 
+                new SceneItem(Type.BOATS, boats), 
+                new SceneItem(Type.ANIMALS, animals),
+                new SceneItem(Type.OTHER_OBJECTS, otherObjects), 
+                new SceneItem(Type.PARTICLES, particles), 
+                new SceneItem(Type.SKYBOX, skybox),
+                new SceneItem(Type.MOUNTAIN_APPEARANCE, mountainAppearance)); 
+
+        // an artifact to be evaluated
+        Artifact artifact = new Scene(sceneItem);
+       // System.out.println(artifact.toString());
+        System.out.println("aboutToJudge");
+        // show the evaluation of an artifact
+        System.out.println("Apparel RDC Metric:" + judge.evaluateArtifact(context, artifact));
+    }
+
+    /**
+     * Run Apparel Example
+     *
+     * @param color1 - shirt color
+     * @param color2 - pants color
+     * @param color3 - shoes color
+     */
+    public static void apparelExample(
+            String color1,
+            String color2,
+            String color3) {
+
+        // a context which the artifact is evalutated
+        ArtifactContext<Apparel> context = new ApparelContext(
+                "/datafiles/apparelDataset.json",
+                "/datafiles/apparelSynergy.json");
+        System.out.println(context.toString());
+
+        // a julde to evaluate an artifact in a context
+        ArtifactJudge judge = new ApparelJudge();
+
+        // some clothing items
+        List<ClothingItem> clothingItem = Arrays.asList(
+                new ClothingItem(Type.SHIRT, Color.valueOf(color1)), // a navy shirt
+                new ClothingItem(Type.PANTS, Color.valueOf(color2)), // pants white
+                new ClothingItem(Type.SHOES, Color.valueOf(color3))); // shoes brown
+
+        // an artifact to be evaluated
+        Artifact artifact = new Apparel(clothingItem);
+        System.out.println(artifact.toString());
+
+        // show the evaluation of an artifact
+        System.out.println("Apparel RDC Metric:" + judge.evaluateArtifact(context, artifact));
+
+    }
+}

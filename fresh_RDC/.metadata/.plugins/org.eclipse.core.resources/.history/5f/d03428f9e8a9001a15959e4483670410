@@ -1,0 +1,32 @@
+package creative.framework.model;
+
+import java.util.List;
+
+public class Scene extends Artifact {
+	List<SceneItem> scene;
+
+    public Scene() {
+    }
+
+    public Scene(List<SceneItem> sceneItems) {
+        this.scene = sceneItems;
+    }
+
+    public List<SceneItem> getSceneItems() {
+        return scene;
+    }
+
+    public void setSceneItems(List<SceneItem> sceneItems) {
+        this.scene = sceneItems;
+    }
+
+    @Override
+    public String toString() {
+        StringBuilder apparel = new StringBuilder();
+        apparel.append("\nApparel Items:\n");
+        for (SceneItem item : scene) {
+            apparel.append(item.getType()).append(":").append(item.getValue()).append("\n");
+        }
+        return apparel.toString();
+    }
+}

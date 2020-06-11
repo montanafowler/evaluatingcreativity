@@ -1,0 +1,110 @@
+[
+    {
+        "clothingItems": [{
+                "type": "SHIRT",
+                "color": "LILAC"
+            }, {
+                "type": "PANTS",
+                "color": "WHITE"
+            }, {
+                "type": "SHOES",
+                "color": "GRAY"
+            }]
+    },
+    {
+        "clothingItems": [{
+                "type": "SHIRT",
+                "color": "WHITE"
+            }, {
+                "type": "PANTS",
+                "color": "NAVY"
+            }, {
+                "type": "SHOES",
+                "color": "WHITE"
+            }]
+    },
+    {
+        "clothingItems": [{
+                "type": "SHIRT",
+                "color": "BLUE"
+            }, {
+                "type": "PANTS",
+                "color": "GRAY"
+            }, {
+                "type": "SHOES",
+                "color": "WHITE"
+            }]
+    },
+    {
+        "clothingItems": [{
+                "type": "SHIRT",
+                "color": "BLUE"
+            }, {
+                "type": "PANTS",
+                "color": "BLACK"
+            }, {
+                "type": "SHOES",
+                "color": "BLACK"
+            }]
+    },
+    {
+        "clothingItems": [{
+                "type": "SHIRT",
+                "color": "GRAY"
+            }, {
+                "type": "PANTS",
+                "color": "WHITE"
+            }, {
+                "type": "SHOES",
+                "color": "NAVY"
+            }]
+    },
+    {
+        "clothingItems": [{
+                "type": "SHIRT",
+                "color": "WHITE"
+            }, {
+                "type": "PANTS",
+                "color": "GRAY"
+            }, {
+                "type": "SHOES",
+                "color": "BROWN"
+            }]
+    },
+    {
+        "clothingItems": [{
+                "type": "SHIRT",
+                "color": "WHITE"
+            }, {
+                "type": "PANTS",
+                "color": "BROWN"
+            }, {
+                "type": "SHOES",
+                "color": "BLACK"
+            }]
+    },
+    {
+        "clothingItems": [{
+                "type": "SHIRT",
+                "color": "NAVY"
+            }, {
+                "type": "PANTS",
+                "color": "GRAY"
+            }, {
+                "type": "SHOES",
+                "color": "NAVY"
+            }]
+    },
+    {
+        "clothingItems": [{
+                "type": "SHIRT",
+                "color": "LILAC"
+            }, {
+                "type": "PANTS",
+                "color": "BLACK"
+            }, {
+                "type": "SHOES",
+                "color": "GRAY"
+            }]
+    }
+]

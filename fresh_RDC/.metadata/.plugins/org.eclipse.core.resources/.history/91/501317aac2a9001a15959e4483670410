@@ -1,0 +1,59 @@
+
+package creative.framework.parser;
+
+import creative.framework.data.Instance;
+import creative.framework.model.SceneItem;
+import creative.framework.model.Scene;
+import java.util.HashMap;
+import java.util.Map;
+
+/**
+ *
+ * @author cel
+ */
+public class Lab7Parser implements Parser<Scene> {
+
+    private final Map<String, Integer> attributes;
+    private final Integer attributeCount;
+
+    public Lab7Parser() {
+        attributes = new HashMap<>();
+        Integer index = 0;
+        attributes.put("shirt:white", index++);
+        attributes.put("shirt:navy", index++);
+        attributes.put("shirt:gray", index++);
+        attributes.put("shirt:blue", index++);
+        attributes.put("shirt:lilac", index++);
+        attributes.put("pants:white", index++);
+        attributes.put("pants:black", index++);
+        attributes.put("pants:navy", index++);
+        attributes.put("pants:gray", index++);
+        attributes.put("pants:brown", index++);
+        attributes.put("shoes:white", index++);
+        attributes.put("shoes:black", index++);
+        attributes.put("shoes:navy", index++);
+        attributes.put("shoes:gray", index++);
+        attributes.put("shoes:brown", index++);
+        attributeCount = attributes.size();
+
+    }
+
+    @Override
+    public Instance getInstance(Scene artifact) {
+        // Integer index;
+        String attributeName;
+        double[] dataInstance = new double[attributeCount];
+
+        for (SceneItem item : artifact.getSceneItems()) {
+            attributeName = (item.getType() + ":" + item.getColor()).toLowerCase();
+            // index = attributes.get(attributeName);
+            dataInstance[attributes.get(attributeName)]++;
+        }
+        return new Instance(dataInstance);
+    }
+    
+    public Integer attributeCount(){
+        return attributeCount;
+    }
+
+}

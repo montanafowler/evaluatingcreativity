@@ -1,0 +1,105 @@
+package creative.framework.parser;
+
+import java.util.HashMap;
+import java.util.Map;
+
+import creative.framework.data.Instance;
+import creative.framework.model.Scene;
+import creative.framework.model.SceneItem;
+
+public class Lab8Parser implements Parser<Scene> {
+
+    private final Map<String, Integer> attributes;
+    private final Integer attributeCount;
+
+    public Lab8Parser() {
+        attributes = new HashMap<>();
+        Integer index = 0;
+        attributes.put("water_shape:river", index++);
+        attributes.put("water_shape:lake", index++);
+        attributes.put("water_shape:square_adjacent", index++);
+        attributes.put("water_shape:island", index++);
+        attributes.put("water_shape:nondescript_body_in_city", index++);
+        attributes.put("water_shape:canal", index++);
+        attributes.put("water_shape:ocean_beach", index++);
+        attributes.put("water_shape:adjacent_no_beach", index++);
+        attributes.put("water_shape:none", index++);
+        attributes.put("water_appearance:water_shader", index++);
+        attributes.put("water_appearance:texture", index++);
+        attributes.put("water_appearance:solid_blue_no_shading", index++);
+        attributes.put("water_appearance:solid_blue_shading", index++);
+        attributes.put("water_appearance:solid_other_color_shading", index++);
+        attributes.put("water_appearance:solid_other_color_no_shading", index++);
+        attributes.put("water_appearance:none", index++);
+        attributes.put("trees:yes", index++);
+        attributes.put("trees:no", index++);
+        attributes.put("clouds:yes", index++);
+        attributes.put("clouds:no", index++);
+        attributes.put("elevation:yes", index++);
+        attributes.put("elevation:no", index++);
+        attributes.put("park:yes_park", index++);
+        attributes.put("park:no_park", index++);
+        attributes.put("other_objects:yes", index++);
+        attributes.put("other_objects:no", index++);
+        attributes.put("particles:yes", index++);
+        attributes.put("particles:no", index++);
+        attributes.put("skybox:yes", index++);
+        attributes.put("skybox:no", index++);
+        attributes.put("building_shape:uniform", index++);
+        attributes.put("building_shape:variety", index++);
+        attributes.put("streets:yes", index++);
+        attributes.put("streets:no", index++);
+        attributes.put("buildings_appearance:uniform_texture", index++);
+        attributes.put("buildings_appearance:uniform_color", index++);
+        attributes.put("buildings_appearance:varying_texture", index++);
+        attributes.put("buildings_appearance:varying_color", index++);
+        attributes.put("inspiration_context:fictional", index++);
+        attributes.put("inspiration_context:nonfictional", index++);
+        attributes.put("inspiration_size:citiscape", index++);
+        attributes.put("inspiration_size:small_town_suburb", index++);
+        attributes.put("inspiration_size:streetview", index++);
+        attributes.put("inspiration_size:other", index++);
+        attributes.put("inspiration_water:canal", index++);
+        attributes.put("inspiration_water:lake", index++);
+        attributes.put("inspiration_water:river", index++);
+        attributes.put("inspiration_water:ocean", index++);
+        attributes.put("inspiration_water:none", index++);
+        attributes.put("inspiration_water:island", index++);
+        attributes.put("inspiration_water:nondescript_body_in_city", index++);
+        attributes.put("inspiration_park:yes_park", index++);
+        attributes.put("inspiration_park:no_park", index++);
+        attributes.put("city_size:citiscape", index++);
+        attributes.put("city_size:small_town_suburb", index++);
+        attributes.put("city_size:streetview", index++);
+        attributes.put("city_size:other", index++);
+        attributes.put("color_synergy:yes", index++);
+        attributes.put("color_synergy:no", index++);
+        attributes.put("height_variation:yes_height", index++);
+        attributes.put("height_variation:no_height", index++);
+        attributes.put("inspiration_height_variation:yes_height", index++);
+        attributes.put("inspiration_height_variation:no_height", index++);        
+        
+        attributeCount = attributes.size();
+    }
+
+    @Override
+    public Instance getInstance(Scene artifact) {
+        // Integer index;
+        String attributeName;
+        double[] dataInstance = new double[attributeCount];
+        
+        for (SceneItem item : artifact.getSceneItems()) {
+            attributeName = (item.getType() + ":" + item.getValue()).toLowerCase();
+            System.out.println(attributeName);
+            if(!attributeName.contains("id:")) {
+                dataInstance[attributes.get(attributeName)]++;      	
+            }
+        }
+        return new Instance(dataInstance);
+    }
+    
+    public Integer attributeCount(){
+        return attributeCount;
+    }
+
+}
