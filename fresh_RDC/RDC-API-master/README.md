@@ -1,3 +1,8 @@
+#below is the readme from the api source! 
+
+THEIR GITHUB: https://github.com/CreaPar/rd-creativity-metric-api
+
+
 ## Regent-Dependent Creativity API
 
 In order to complement the study cases in this article, an API for evaluating artifacts was developed. Only two inputs are necessary for evaluating an artifact: a knowledge database that contains existing artifacts of the particular application domain, and a set of relations that represent the synergy among the artifacts’ attributes. The knowledge database must contain artifacts encoded in a specific format, such as JSON. In the first example, where clothing items are combined to form an apparel, the knowledge database has the following format:
